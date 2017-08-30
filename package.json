@@ -1,0 +1,29 @@
+{
+  "name": "serverless-naming",
+  "version": "0.1.0",
+  "description": "This plugin enables changing naming convention for resources in the [Serverless Framework](https://github.com/serverless).",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --cache",
+    "test": "mocha *.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/domaslasauskas/serverless-naming"
+  },
+  "keywords": [
+    "serverless",
+    "serverless framework",
+    "serverless plugin",
+    "plugin",
+    "naming"
+  ],
+  "author": "Domas Lasauskas",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.2",
+    "eslint-plugin-import": "^2.7.0",
+    "mocha": "^3.5.0"
+  }
+}
